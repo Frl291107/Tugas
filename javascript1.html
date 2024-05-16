@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    jawban :
+    <h1 id="jawaban">ini jawaban</h1>
+    <button onclick="penjumlahan(10)">lihat</button>
+    <script>
+        //buat fungsi
+        function penjumlahan(x){
+            document .getElementById("jawaban").innerHTML = x * 2
+
+        
+        }
+
+        //lagi
+        function kalkulator(){
+            var x = document.getElementById("x").value
+            var y = document.getElementById("y").value
+            document.getElementById("kalkulator").innerHTML = x * y
+        }
+    </script>
+
+    <p>
+        <input id="x">
+        <br>
+        <input id="y">
+        <br>
+        <h1 id="kalkulator">jwb</h1>
+        <button onclick="kalkulator()">liat</button>
+
+    </p>
+
+
+</body>
+</html>
